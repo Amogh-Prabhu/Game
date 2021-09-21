@@ -15,6 +15,7 @@ char ball;
 
 void intro()
 {
+    system("cls");
     char start='*',quit=' ';
     int s=0;
     while(!s)
@@ -59,7 +60,7 @@ void Setup()
 void base()
 {
     system("cls");
-
+    printf("\n\t(Press W to move UP and Press S to move DOWN)\n\n");
     for(int j=0;j<height;j++)
     {
         printf("\t");
